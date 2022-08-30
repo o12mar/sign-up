@@ -1,0 +1,74 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url('/images/10136775_17973908.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 190%;
+    background-position-y: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0a1423;
+    border-color: #051124;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.top {
+    margin-bottom: -24px;
+    border-bottom-right-radius: 0.24rem;
+    border-bottom-left-radius: 0.24rem;
+}
+
+.middle {
+    border-radius: 0;
+    margin-bottom: -24px;
+    border-top-left-radius: 0.24rem;
+    border-top-right-radius: 0.24rem;
+    border-bottom-right-radius: 0.24rem;
+    border-bottom-left-radius: 0.24rem;
+}
+
+.bottom {
+    margin-bottom: 0px;
+    border-top-left-radius: 0.24rem;
+    border-top-right-radius: 0.24rem;
+    border-bottom-right-radius: 0.24rem;
+    border-bottom-left-radius: 0.24rem;
+}
+
+input#floatingPassword {
+    border-top-left-radius: 0.24rem;
+    border-top-right-radius: 0.24rem;
+    border-bottom-right-radius: 0.24rem;
+    border-bottom-left-radius: 0.24rem;
+}
+
+.form-floating>.form-control,
+.form-floating>.form-select {
+    height: calc(3.5rem + 2px);
+    padding: 1rem 0.75rem;
+    opacity: 78%;
+}
